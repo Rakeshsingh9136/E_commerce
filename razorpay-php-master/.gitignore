@@ -1,0 +1,58 @@
+# Composer dependencies
+/vendor/
+
+# PHPStorm project files
+/.idea/
+/*.iml
+
+# Laravel specific
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/debugbar/*
+/.env
+/.env.local
+/.env.*.local
+
+# Symfony specific
+/var/
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+/.env
+/.env.local
+/.env.*.local
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/build/
+
+# Ignore compiled files
+*.php~
+*.phar
+
+# Ignore logs and database files
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# IDE specific files
+/.vscode/
+/*.swp
+/.project
+/.settings/
